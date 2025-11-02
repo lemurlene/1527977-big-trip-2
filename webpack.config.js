@@ -9,6 +9,7 @@ module.exports = {
     path: path.resolve(__dirname, 'build'),
     filename: 'bundle.[contenthash].js',
     clean: true,
+    publicPath: '/1527977-big-trip-2/', 
   },
   devtool: 'source-map',
   plugins: [
